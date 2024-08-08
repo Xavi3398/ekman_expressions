@@ -20,12 +20,12 @@ To reproduce the results presented in the article, run every notebook in the [no
 For simplicity, the project is structured in different folders:
 
 - **[notebooks](./notebooks)**: all code needed to reproduce the experiments in the article.
-- **[datasets](./datasets)**: datasets to use in the experiments. This folder is empty because we have no rights over the distribution of the datatasets.
-- **[models](./models)**: saved weights of the trained models. You can download the trained weights from [HuggingFace](https://huggingface.co/Xavi3398/ekman_expressions).
-- **[results](./results)**: local explanation results, including selection of 100 postivies per class, application of LIME, and normalization steps.
 - **[heatmaps](./heatmaps)**: computed global explanations, aggregating the local explanations by classes, by classes and networks, and by classes, networks, and k-cross validation sets. It also contains the computed Ekman GT masks under [heatmaps/GROUND_TRUTH](./heatmaps/GROUND_TRUTH).
 - **[barplots](./barplots)**: charts displaying the difference between Ekman GT masks and the heatmaps.
 - **[dendograms](./dendograms)**: charts displaying the similarities between heatmaps in a hierarchic manner.
+- **datasets**: datasets to use in the experiments. Not included because we have no rights over the distribution of the datatasets.
+- **models**: saved weights of the trained models. You can download the trained weights from [HuggingFace](https://huggingface.co/Xavi3398/ekman_expressions).
+- **results**: local explanation results, including selection of 100 postivies per class, application of LIME, and normalization steps. Not included because we have no rights over the distribution of images from the datatasets.
 
 ## Overview
 
