@@ -108,7 +108,9 @@ They can represent the importance by expressions:
 <img src="resources/heatmaps_1.png" alt="heatmaps_1" style="width:60%;height:auto;">
 
 And by expressions and networks:
+
 <img src="resources/heatmaps_2.png" alt="heatmaps_2" style="width:60%;height:auto;">
+
 <img src="resources/heatmaps_3.png" alt="heatmaps_3" style="width:60%;height:auto;">
 
 ### Similarities between networks
