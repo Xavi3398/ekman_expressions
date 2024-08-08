@@ -1,6 +1,6 @@
 # ekman_expressions
 
-This repository contains all the code used for the scientific article titled *"Unveiling the Human-like Similarities of Automatic Facial Expression Recognition: An Empirical Exploration through Explainable AI"*.
+This repository contains all the code used for the scientific article titled [*"Unveiling the Human-like Similarities of Automatic Facial Expression Recognition: An Empirical Exploration through Explainable AI"*](https://arxiv.org/abs/2401.11835).
 
 ## Installation
 
