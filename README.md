@@ -31,7 +31,7 @@ For simplicity, the project is structured in different folders:
 
 ### Datasets used for training:
 The datasets used were 5: CK+, BU-4DFE, JAFFE and WSEFEP, and FEGA. These are some examples from each class:
-<img src="resources/datasets.png" alt="datasets" style="width:60%;height:auto;display:block;margin-left:auto;margin-right:auto;">
+<img src="resources/datasets.png" alt="datasets" style="width:60%;height:auto;">
 
 ### Models:
 We explored 12 different Deep Learning models:
@@ -54,12 +54,12 @@ We explored 12 different Deep Learning models:
 ### Explanations
 Global explanations were extracted from local (LIME) ones. To do so, the explanations were aggregated after transforming them to a normalized space. This are some examples of every computation step:
 
-<img src="resources/normalization.png" alt="normalization" style="width:75%;height:auto;display:block;margin-left:auto;margin-right:auto;">
+<img src="resources/normalization.png" alt="normalization" style="width:75%;height:auto;">
 
 ### Ekman GT masks
 We constructed "ground truth" masks to represent the important regions of the face to recognize each facial expression, following the work of Ekman et al.
 
-<img src="resources/ekman_masks.png" alt="ekman_masks" style="width:50%;height:auto;display:block;margin-left:auto;margin-right:auto;">
+<img src="resources/ekman_masks.png" alt="ekman_masks" style="width:50%;height:auto;">
 
 These are the results when comparing the Ekman GT masks with thresholded heatmaps for each network and class:
 
@@ -105,16 +105,18 @@ Following the described process to obtain global explanations, a series of heatm
 
 They can represent the importance by expressions:
 
-<img src="resources/heatmaps_1.png" alt="heatmaps_1" style="width:60%;height:auto;display:block;margin-left:auto;margin-right:auto;">
+<img src="resources/heatmaps_1.png" alt="heatmaps_1" style="width:60%;height:auto;">
 
 And by expressions and networks:
-<img src="resources/heatmaps_2.png" alt="heatmaps_2" style="width:60%;height:auto;display:block;margin-left:auto;margin-right:auto;">
-<img src="resources/heatmaps_3.png" alt="heatmaps_3" style="width:60%;height:auto;display:block;margin-left:auto;margin-right:auto;">
+
+<img src="resources/heatmaps_2.png" alt="heatmaps_2" style="width:60%;height:auto;">
+
+<img src="resources/heatmaps_3.png" alt="heatmaps_3" style="width:60%;height:auto;">
 
 ### Similarities between networks
 We also explored the similarities between the computed heatmaps by networks and classes. We used the normalized correlation coeficient to compute the distances.
 
-<img src="resources/dendograms.png" alt="dendograms" style="width:80%;height:auto;display:block;margin-left:auto;margin-right:auto;">
+<img src="resources/dendograms.png" alt="dendograms" style="width:80%;height:auto;">
 
 ## License
 
