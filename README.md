@@ -134,14 +134,15 @@ F. X. Gaya-Morey was supported by an FPU scholarship from the Ministry of Europe
 If you use this code in your research, please cite our paper:
 
 ```
-@misc{gayamorey2024unveilinghumanlikesimilaritiesautomatic,
-      title={Unveiling the Human-like Similarities of Automatic Facial Expression Recognition: An Empirical Exploration through Explainable AI}, 
-      author={F. Xavier Gaya-Morey and Silvia Ramis-Guarinos and Cristina Manresa-Yee and Jose M. Buades-Rubio},
-      year={2024},
-      eprint={2401.11835},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2401.11835}, 
+@article{gaya_morey2024unveiling,
+	title        = {Unveiling the human-like similarities of automatic facial expression recognition: An empirical exploration through explainable ai},
+	author       = {Gaya-Morey, F. Xavier and Ramis-Guarinos, Silvia and Manresa-Yee, Cristina and Buades-Rubio, Jos{\'e} M.},
+	year         = 2024,
+	month        = 8,
+	day          = 28,
+	journal      = {Multimedia Tools and Applications},
+	doi          = {10.1007/s11042-024-20090-5},
+	issn         = {1573-7721}
 }
 ```
 
