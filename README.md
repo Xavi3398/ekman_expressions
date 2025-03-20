@@ -118,10 +118,6 @@ We also explored the similarities between the computed heatmaps by networks and 
 
 <img src="resources/dendograms.png" alt="dendograms" style="width:80%;height:auto;">
 
-## License
-
-This project is licensed under the terms of the MIT license. See the [LICENSE](LICENSE) file for details.
-
 ## Acknowledgments
 Grant PID2019-104829RA-I00 funded by MCIN/ AEI /10.13039/501100011033. Project EXPLainable Artificial INtelligence systems for health and well-beING (EXPLAINING)
 
@@ -129,7 +125,7 @@ This work is part of the Project PID2022-136779OB-C32 (PLEISAR) funded by MICIU/
 
 F. X. Gaya-Morey was supported by an FPU scholarship from the Ministry of European Funds, University and Culture of the Government of the Balearic Islands.
 
-## Citation
+## Citing
 
 If you use this code in your research, please cite our paper:
 
@@ -145,6 +141,10 @@ If you use this code in your research, please cite our paper:
 	issn         = {1573-7721}
 }
 ```
+
+## License
+
+This project is licensed under the terms of the MIT license. See the [LICENSE](LICENSE) file for details.
 
 ## Contact
 
