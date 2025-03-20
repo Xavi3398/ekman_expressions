@@ -2,7 +2,7 @@
 
 **Authors:** F. Xavier Gaya-Morey, Silvia Ramis-Guarinos, Cristina Manresa-Yee and Jose M. Buades-Rubio
 
-This repository contains all the code used for the scientific article titled [*"Unveiling the Human-like Similarities of Automatic Facial Expression Recognition: An Empirical Exploration through Explainable AI"*](https://link.springer.com/article/10.1007/s11042-024-20090-5).
+This repository contains the complete code used in the scientific article titled [*"Unveiling the Human-Like Similarities of Automatic Facial Expression Recognition: An Empirical Exploration through Explainable AI"*](https://link.springer.com/article/10.1007/s11042-024-20090-5).
 
 ## Abstract
 
