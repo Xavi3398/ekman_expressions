@@ -1,6 +1,12 @@
 # ekman_expressions
 
-This repository contains all the code used for the scientific article titled [*"Unveiling the Human-like Similarities of Automatic Facial Expression Recognition: An Empirical Exploration through Explainable AI"*](https://arxiv.org/abs/2401.11835).
+**Authors:** F. Xavier Gaya-Morey, Silvia Ramis-Guarinos, Cristina Manresa-Yee and Jose M. Buades-Rubio
+
+This repository contains all the code used for the scientific article titled [*"Unveiling the Human-like Similarities of Automatic Facial Expression Recognition: An Empirical Exploration through Explainable AI"*](https://link.springer.com/article/10.1007/s11042-024-20090-5).
+
+## Abstract
+
+Facial expression recognition is vital for human behavior analysis, and deep learning has enabled models that can outperform humans. However, it is unclear how closely they mimic human processing. This study aims to explore the similarity between deep neural networks and human perception by comparing twelve different networks, including both general object classifiers and FER-specific models. We employ an innovative global explainable AI method to generate heatmaps, revealing crucial facial regions for the twelve networks trained on six facial expressions. We assess these results both quantitatively and qualitatively, comparing them to ground truth masks based on Friesen and Ekman’s description and among them. We use Intersection over Union (IoU) and normalized correlation coefficients for comparisons. We generate 72 heatmaps to highlight critical regions for each expression and architecture. Qualitatively, models with pre-trained weights show more similarity in heatmaps compared to those without pre-training. Specifically, eye and nose areas influence certain facial expressions, while the mouth is consistently important across all models and expressions. Quantitatively, we find low average IoU values (avg. 0.2702) across all expressions and architectures. The best-performing architecture averages 0.3269, while the worst-performing one averages 0.2066. Dendrograms, built with the normalized correlation coefficient, reveal two main clusters for most expressions: models with pre-training and models without pre-training. Findings suggest limited alignment between human and AI facial expression recognition, with network architectures influencing the similarity, as similar architectures prioritize similar facial regions.
 
 ## Installation
 
